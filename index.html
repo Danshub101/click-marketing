@@ -1,0 +1,1770 @@
+<!DOCTYPE html>
+<html lang="en-NZ">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8SEM5R5S98"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-8SEM5R5S98');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click Marketing | Real Estate Photography, Videography & AI Solutions NZ</title>
+    <meta name="description" content="Marketing evolved, made to click. Premier real estate photography, video walkthroughs, drone suites, and AI digital twin marketing for Christchurch agents.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <!-- Open Graph (Facebook, LinkedIn, Messenger, iMessage) -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Click Marketing">
+    <meta property="og:title" content="Click Marketing | Real Estate Photography, Video & AI Avatars – Christchurch">
+    <meta property="og:description" content="Marketing evolved, made to click. HDR photography, cinematic walkthroughs, drone and your own AI digital twin presenter for Christchurch agents.">
+    <meta property="og:url" content="https://www.clickmarketing.co.nz/">
+    <meta property="og:image" content="https://www.clickmarketing.co.nz/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="en_NZ">
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Click Marketing | Real Estate Photography, Video & AI Avatars – Christchurch">
+    <meta name="twitter:description" content="Marketing evolved, made to click. HDR photography, cinematic walkthroughs, drone and your own AI digital twin presenter for Christchurch agents.">
+    <meta name="twitter:image" content="https://www.clickmarketing.co.nz/og-image.jpg">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Oswald:wght@500;600;700&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+
+    <style>
+        :root {
+            --bg-dark: #0B0B0C;
+            --card-bg: #141517;
+            --modal-bg: #0F141C;
+            --input-bg: #0B0E14;
+            --text-white: #FFFFFF;
+            --text-grey: #9AA0A6;
+            --accent-grey: #2E3033;
+            --accent-silver: #E8EAED;
+            --gold-accent: #E5C158;
+            --font-heading: 'Oswald', sans-serif;
+            --font-sub: 'Roboto Condensed', sans-serif;
+            --font-body: 'Inter', sans-serif;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; overflow-x: hidden; }
+        @supports (overflow: clip) { html, body { overflow-x: clip; } }
+        body { background-color: var(--bg-dark); color: var(--text-white); font-family: var(--font-body); line-height: 1.6; overflow-x: hidden; padding-bottom: 80px; }
+        h1, h2, h3, .heading-font { font-family: var(--font-heading); text-transform: uppercase; letter-spacing: 1px; }
+        a { color: var(--text-white); text-decoration: none; transition: all 0.3s ease; }
+        
+        header {
+            display: flex; justify-content: space-between; align-items: center; padding: 15px 5%;
+            background: rgba(11, 11, 12, 0.95); position: fixed; width: 100%; top: 0; z-index: 1000;
+            border-bottom: 1px solid var(--accent-grey); backdrop-filter: blur(10px);
+        }
+        .logo-container img { height: 121px; width: auto; display: block; filter: contrast(1.4); mix-blend-mode: screen; transition: height 0.3s ease; cursor: pointer; }
+        .header-actions { display: flex; align-items: center; gap: 15px; }
+        nav ul { display: flex; list-style: none; gap: 30px; }
+        nav a { font-family: var(--font-sub); font-size: 1.05rem; text-transform: uppercase; letter-spacing: 1px; }
+        nav a:hover { color: var(--text-grey); }
+        .cta-btn {
+            background: var(--text-white); color: var(--bg-dark); padding: 12px 24px;
+            font-family: var(--font-heading); font-weight: 700; text-transform: uppercase;
+            border-radius: 2px; display: inline-block; transition: all 0.3s ease; border: none; cursor: pointer; text-align: center;
+        }
+        .cta-btn:hover { background: var(--text-grey); color: var(--text-white); transform: translateY(-2px); }
+        .cta-btn.gold-btn { background: var(--gold-accent); color: var(--bg-dark); }
+        .cta-btn.gold-btn:hover { background: #d4b045; color: var(--bg-dark); }
+
+        .hero { padding: 180px 5% 70px; display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center; overflow-x: clip; }
+        .hero-tagline { font-family: var(--font-sub); font-size: 1.4rem; color: var(--gold-accent); text-transform: uppercase; margin-bottom: 15px; letter-spacing: 2px; }
+        .hero-text h1 { font-size: 3.5rem; line-height: 1.1; margin-bottom: 20px; }
+        .hero-text p { font-size: 1.1rem; color: var(--text-grey); margin-bottom: 35px; max-width: 560px; }
+
+        .swiper-container { width: 100%; height: 460px; border-radius: 8px; border: 1px solid var(--accent-grey); overflow: hidden; box-shadow: 0 15px 30px rgba(0,0,0,0.5); background: #141517; }
+        .swiper-slide { position: relative; display: flex; align-items: center; justify-content: center; background: #111215; }
+        .swiper-slide img { width: 100%; height: 100%; object-fit: cover; display: block; }
+        .slide-caption { position: absolute; bottom: 0; left: 0; right: 0; background: rgba(11, 11, 12, 0.88); padding: 14px 20px; font-family: var(--font-sub); text-transform: uppercase; border-top: 1px solid var(--accent-grey); letter-spacing: 1px; font-size: 1.05rem; text-align: center; color: var(--gold-accent); backdrop-filter: blur(4px); }
+
+        .intro-video-section { padding: 60px 5% 90px; background: #0E0F11; border-bottom: 1px solid var(--accent-grey); }
+        .video-wrapper { position: relative; border: 1px solid var(--accent-grey); border-radius: 8px; background: var(--card-bg); box-shadow: 0 20px 40px rgba(0,0,0,0.6); max-width: 1100px; margin: 0 auto; overflow: hidden; }
+        .video-play-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.35); display: flex; align-items: center; justify-content: center; cursor: pointer; transition: background 0.3s ease; z-index: 10; }
+        .video-play-overlay:hover { background: rgba(0, 0, 0, 0.2); }
+        .video-play-btn { width: 80px; height: 80px; background: rgba(46, 48, 51, 0.85); border: 2px solid rgba(255, 255, 255, 0.7); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--text-white); font-size: 2rem; padding-left: 5px; box-shadow: 0 8px 25px rgba(0,0,0,0.6); transition: transform 0.3s ease; }
+        .video-play-overlay:hover .video-play-btn { transform: scale(1.1); background: var(--gold-accent); color: var(--bg-dark); border-color: var(--gold-accent); }
+
+        section { padding: 90px 5%; border-bottom: 1px solid var(--accent-grey); }
+        #booking { scroll-margin-top: 160px; }
+        .section-title { font-size: 2.8rem; margin-bottom: 10px; text-align: center; }
+        .section-subtitle { text-align: center; color: var(--text-grey); font-family: var(--font-sub); text-transform: uppercase; margin-bottom: 50px; font-size: 1.2rem; letter-spacing: 1.5px; }
+
+        .trust-bar { background: #111215; border-top: 1px solid var(--accent-grey); border-bottom: 1px solid var(--accent-grey); padding: 25px 2%; }
+        .trust-grid { display: flex; flex-wrap: nowrap; justify-content: space-between; align-items: stretch; width: 100%; gap: 6px; overflow-x: auto; scrollbar-width: none; -ms-overflow-style: none; }
+        .trust-grid::-webkit-scrollbar { display: none; }
+        .trust-item { flex: 1 1 0; min-width: 135px; display: flex; flex-direction: column; align-items: center; text-align: center; padding: 5px 3px; }
+        .trust-item i { font-size: 1.7rem; color: var(--gold-accent); margin-bottom: 8px; }
+        .trust-item h5 { font-family: var(--font-sub); text-transform: uppercase; color: var(--text-white); font-size: 0.82rem; margin-bottom: 4px; letter-spacing: 0.5px; line-height: 1.2; }
+        .trust-item p { color: var(--text-grey); font-size: 0.7rem; line-height: 1.3; }
+
+        .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+        .about-card { background: var(--card-bg); padding: 40px; border-radius: 6px; border: 1px solid var(--accent-grey); }
+        .about-card p { font-size: 1.05rem; color: var(--accent-silver); margin-bottom: 20px; }
+        .highlight-box { background: #1C1D20; border-left: 4px solid var(--text-white); padding: 20px; margin-top: 25px; border-radius: 0 4px 4px 0; }
+        .about-read-more-btn { display: none; }
+
+        .pkg-quick-select-pills { display: none; }
+        .packages-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        .pkg-card { background: var(--card-bg); border: 1px solid var(--accent-grey); border-radius: 8px; padding: 35px 25px; position: relative; display: flex; flex-direction: column; transition: all 0.3s ease; cursor: pointer; }
+        .pkg-card:hover { border-color: var(--text-grey); }
+        .pkg-card.selected { border: 2px solid var(--gold-accent); background: #181A1D; box-shadow: 0 10px 25px rgba(229,193,88,0.15); }
+        .pkg-badge-container { position: absolute; top: -12px; right: 15px; display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
+        .pkg-badge { background: var(--gold-accent); color: var(--bg-dark); font-family: var(--font-heading); font-size: 0.85rem; font-weight: 700; padding: 3px 12px; border-radius: 20px; text-transform: uppercase; }
+        .pkg-badge.popular-badge { background: #FFFFFF; color: #0B0B0C; border: 1px solid var(--gold-accent); }
+        .pkg-label { font-family: var(--font-sub); color: var(--text-grey); text-transform: uppercase; font-size: 0.95rem; }
+        .pkg-title { font-size: 1.8rem; margin: 5px 0 15px; }
+        .pkg-price { font-family: var(--font-heading); font-size: 2.8rem; margin-bottom: 20px; color: var(--text-white); }
+        .pkg-price span { font-size: 1rem; color: var(--text-grey); font-family: var(--font-body); }
+        .pkg-features { list-style: none; margin-bottom: 30px; flex-grow: 1; }
+        .pkg-features li { padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,0.05); font-size: 0.95rem; color: var(--accent-silver); display: flex; align-items: center; gap: 10px; }
+        .pkg-features li i { color: #4CAF50; }
+
+        .partner-office-block { margin-top: 50px; background: var(--card-bg); border: 1px solid var(--gold-accent); border-radius: 8px; padding: 35px 30px; text-align: center; }
+        .partner-office-block h3 { font-size: 1.8rem; color: var(--gold-accent); margin-bottom: 10px; }
+        .partner-office-block p { color: var(--accent-silver); font-size: 1.05rem; max-width: 650px; margin: 0 auto 20px; }
+
+        .addons-section { display: none; margin-top: 50px; background: var(--card-bg); border: 1px solid var(--accent-grey); border-radius: 8px; padding: 35px 30px; scroll-margin-top: 90px; }
+        .addons-header-bar { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px; border-bottom: 1px solid var(--accent-grey); padding-bottom: 20px; margin-bottom: 25px; }
+        .addons-header-left { display: flex; flex-direction: column; }
+        .addons-header-right { display: flex; align-items: center; gap: 25px; background: var(--input-bg); padding: 15px 22px; border-radius: 8px; border: 1px solid var(--accent-grey); }
+        .addons-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 15px; }
+        .addon-item { background: var(--input-bg); border: 1px solid var(--accent-grey); padding: 15px 20px; border-radius: 6px; display: flex; align-items: center; gap: 15px; cursor: pointer; }
+        .addon-item input[type="checkbox"] { width: 20px; height: 20px; accent-color: var(--gold-accent); cursor: pointer; }
+
+        .sticky-summary-bar { position: fixed; bottom: -120px; left: 0; right: 0; background: rgba(18, 19, 21, 0.97); border-top: 1px solid var(--accent-grey); padding: 15px 5%; z-index: 999; display: flex; justify-content: space-between; align-items: center; backdrop-filter: blur(10px); box-shadow: 0 -10px 25px rgba(0,0,0,0.5); transition: bottom 0.4s ease; }
+        .sticky-summary-bar.active { bottom: 0; }
+        .sticky-summary-bar.dismissed { bottom: -120px !important; }
+        .sticky-right-group { display: flex; align-items: center; gap: 20px; }
+        .sticky-close-btn { background: transparent; border: none; color: var(--text-grey); font-size: 1.5rem; cursor: pointer; padding: 4px 8px; border-radius: 4px; }
+        .sticky-close-btn:hover { color: var(--text-white); background: rgba(255,255,255,0.1); }
+
+        .modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0, 0, 0, 0.88); backdrop-filter: blur(8px); z-index: 2000; justify-content: center; align-items: center; padding: 20px; }
+        .modal-overlay.active { display: flex; }
+        .modal-container { background: var(--modal-bg); border: 1px solid var(--accent-grey); border-radius: 12px; width: 100%; max-width: 680px; max-height: 90vh; overflow-y: auto; position: relative; padding: 35px 30px; box-shadow: 0 20px 50px rgba(0,0,0,0.8); }
+        .modal-close { position: absolute; top: 20px; right: 25px; background: transparent; border: none; color: var(--text-grey); font-size: 1.8rem; cursor: pointer; }
+        .modal-header h2 { font-size: 2.2rem; margin-bottom: 5px; }
+        .modal-header p { color: var(--text-grey); font-size: 0.95rem; margin-bottom: 20px; }
+        .modal-pkg-summary { background: var(--input-bg); border: 1px solid var(--accent-grey); padding: 18px 22px; border-radius: 8px; display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px; }
+        .modal-pkg-summary h3 { font-size: 1.4rem; }
+        .modal-pkg-summary .price { font-family: var(--font-heading); font-size: 2rem; color: var(--gold-accent); }
+
+        /* Custom Modal Styles for Flyer, Privacy, and QR Share */
+        #flyer-modal .modal-container { max-width: 760px; max-height: 90vh; display: flex; flex-direction: column; }
+        #flyer-modal .flyer-body-scroll { overflow-y: auto; max-height: 75vh; margin: 15px 0 20px; border: 1px solid var(--accent-grey); border-radius: 6px; }
+        #flyer-modal .flyer-body-scroll img { width: 100%; height: auto; display: block; }
+        #flyer-modal .flyer-modal-actions { display: flex; justify-content: flex-end; gap: 15px; flex-wrap: wrap; }
+
+        #privacy-modal { z-index: 3000; }
+        #privacy-modal .modal-container { max-width: 820px; max-height: 90vh; display: flex; flex-direction: column; }
+        #privacy-modal iframe { width: 100%; height: 70vh; border: none; border-radius: 6px; background: var(--bg-dark); margin: 15px 0 20px; }
+        #privacy-modal .privacy-modal-actions { display: flex; justify-content: flex-end; }
+
+        #qr-modal { z-index: 3000; }
+        #qr-modal .modal-container { max-width: 420px; background: #FFFFFF; color: var(--bg-dark); text-align: center; padding: 35px 25px; border-radius: 16px; }
+        #qr-modal .modal-close { color: #000000; }
+        #qr-modal h3 { font-family: var(--font-heading); text-transform: uppercase; font-size: 1.35rem; color: #000000; margin-bottom: 15px; letter-spacing: 0.5px; }
+        #qr-modal img { width: 320px; max-width: 80vw; height: auto; display: block; margin: 0 auto; background: #FFFFFF; padding: 10px; border-radius: 8px; }
+        #qr-modal p { font-family: var(--font-sub); text-transform: uppercase; letter-spacing: 1px; color: #555555; font-size: 0.95rem; margin-top: 15px; font-weight: 700; }
+
+        .pill-group { display: flex; gap: 10px; margin-top: 8px; flex-wrap: wrap; }
+        .pill-btn { background: var(--input-bg); border: 1px solid var(--accent-grey); color: var(--text-white); padding: 10px 20px; border-radius: 20px; font-family: var(--font-body); font-size: 0.9rem; cursor: pointer; transition: all 0.2s ease; }
+        .pill-btn.active { background: var(--gold-accent); color: var(--bg-dark); border-color: var(--gold-accent); font-weight: 600; }
+
+        .asap-toggle-box { display: flex; gap: 12px; align-items: center; position: relative; }
+        .asap-btn { background: var(--gold-accent); color: var(--bg-dark); border: none; padding: 10px 22px; border-radius: 6px; font-weight: 700; cursor: pointer; }
+        .asap-btn.inactive { background: var(--input-bg); color: var(--text-white); border: 1px solid var(--accent-grey); }
+        
+        .date-picker-trigger { position: relative; background: var(--input-bg); border: 1px solid var(--accent-grey); color: var(--text-white); padding: 10px 16px; border-radius: 6px; font-family: var(--font-body); font-size: 0.95rem; cursor: pointer; display: flex; align-items: center; gap: 10px; flex-grow: 1; }
+
+        .calendar-popup { display: none; position: absolute; top: 48px; left: 0; z-index: 4000; background: #181B22; border: 1px solid var(--gold-accent); border-radius: 8px; padding: 15px; width: 290px; box-shadow: 0 10px 25px rgba(0,0,0,0.8); }
+        .calendar-popup.active { display: block; }
+        @media (max-width: 900px) {
+            /* Mobile: show the calendar centred on screen instead of off to the side */
+            .calendar-popup { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); width: min(320px, 92vw); max-height: 90vh; overflow-y: auto; z-index: 5000;
+                box-shadow: 0 0 0 100vmax rgba(0,0,0,0.6), 0 10px 25px rgba(0,0,0,0.8); }
+        }
+        .cal-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+        .cal-title { font-family: var(--font-sub); font-weight: 700; text-transform: uppercase; font-size: 1rem; color: var(--gold-accent); }
+        .cal-nav-btn { background: var(--accent-grey); border: none; color: var(--text-white); width: 28px; height: 28px; border-radius: 4px; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+        .cal-nav-btn:disabled { opacity: 0.3; cursor: not-allowed; }
+        .cal-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; text-align: center; font-size: 0.85rem; }
+        .cal-day-head { color: var(--text-grey); font-weight: 600; padding-bottom: 5px; }
+        .cal-day { padding: 6px; border-radius: 4px; cursor: pointer; color: var(--text-white); }
+        .cal-day:hover:not(.disabled) { background: var(--accent-grey); }
+        .cal-day.today { border: 1px solid var(--gold-accent); font-weight: 700; }
+        .cal-day.selected-day { background: var(--gold-accent) !important; color: var(--bg-dark) !important; font-weight: 700; }
+        .cal-day.empty { cursor: default; background: transparent !important; }
+        .cal-day.disabled { opacity: 0.25; cursor: not-allowed; color: var(--text-grey); }
+
+        .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-bottom: 20px; }
+        .form-group { display: flex; flex-direction: column; gap: 6px; }
+        .form-group.full { grid-column: span 2; }
+        .form-group label { font-family: var(--font-sub); text-transform: uppercase; font-size: 0.85rem; color: var(--text-grey); }
+        .form-group input, .form-group select, .form-group textarea { background: var(--input-bg); border: 1px solid var(--accent-grey); color: var(--text-white); padding: 12px 14px; border-radius: 6px; font-family: var(--font-body); font-size: 0.95rem; }
+        .form-group input:focus, .form-group textarea:focus { outline: none; border-color: var(--gold-accent); }
+        .modal-section-title { font-family: var(--font-sub); text-transform: uppercase; letter-spacing: 1.5px; color: var(--gold-accent); font-size: 0.9rem; margin: 20px 0 10px; border-bottom: 1px solid rgba(255,255,255,0.08); padding-bottom: 5px; }
+        .modal-error-msg { display: none; background: rgba(220, 53, 69, 0.2); border: 1px solid #dc3545; color: #ff6b6b; padding: 12px 16px; border-radius: 6px; font-size: 0.9rem; margin-top: 15px; text-align: center; }
+
+        .checkbox-container { display: flex; align-items: flex-start; gap: 12px; margin-top: 10px; cursor: pointer; }
+        .checkbox-container input[type="checkbox"] { width: 18px; height: 18px; accent-color: var(--gold-accent); margin-top: 3px; cursor: pointer; flex-shrink: 0; }
+        .checkbox-container span { font-size: 0.85rem; color: var(--text-grey); line-height: 1.4; }
+
+        footer { padding: 60px 5% 30px; background: #070708; text-align: center; }
+        .footer-socials { display: flex; justify-content: center; gap: 25px; margin: 25px 0 15px; }
+        .footer-socials a { font-size: 1.8rem; color: var(--text-white); }
+        .footer-socials a:hover { color: var(--text-grey); }
+        .footer-flyer-link { margin-top: 15px; display: inline-block; color: var(--gold-accent); font-family: var(--font-sub); text-transform: uppercase; letter-spacing: 1px; font-weight: 700; font-size: 0.95rem; }
+        .footer-flyer-link:hover { text-decoration: underline; color: #FFF; }
+        .footer-copy { color: var(--text-grey); font-size: 0.85rem; margin-top: 15px; }
+
+        /* Mobile: trust strip scrolls continuously so all badges are seen */
+        .trust-item.trust-clone { display: none; }
+        .hero-cta-mobile { display: none; }
+        @media (max-width: 900px) {
+            .hero-cta-desktop { display: none; }
+            .hero-cta-mobile { display: block; width: 100%; text-align: center; }
+            .logo-container img { height: 70px; }
+            .header-actions .gold-btn { display: none; }
+            .hero { padding-top: 120px; grid-template-columns: 1fr; }
+            #booking { scroll-margin-top: 100px; }
+            .about-grid, .form-grid, .addons-header-bar { grid-template-columns: 1fr; }
+            .form-group.full { grid-column: span 1; }
+            nav ul { display: none; }
+            .hero-text h1 { font-size: 2.6rem; }
+            .header-actions { flex-wrap: wrap; }
+            .partner-office-block { padding: 25px 15px; }
+            #flyer-modal .modal-container, #privacy-modal .modal-container { padding: 25px 15px; }
+            #privacy-modal iframe { height: 60vh; }
+
+            .trust-bar { padding-left: 0; padding-right: 0;
+                -webkit-mask-image: linear-gradient(to right, transparent 0, #000 6%, #000 94%, transparent 100%);
+                        mask-image: linear-gradient(to right, transparent 0, #000 6%, #000 94%, transparent 100%); }
+            .trust-grid { overflow-x: auto; justify-content: flex-start; gap: 0; animation: none;
+                scrollbar-width: none; -webkit-overflow-scrolling: touch; touch-action: pan-x pan-y; }
+            .trust-grid::-webkit-scrollbar { display: none; }
+            .trust-item, .trust-item.trust-clone { display: flex; flex: 0 0 auto; width: 150px; min-width: 150px; padding: 5px 8px; }
+
+            /* Mobile Package Quick-Select Pills & Swipeable Grid */
+            .pkg-quick-select-pills { display: flex; flex-wrap: nowrap; justify-content: flex-start; gap: 6px; margin: -25px 0 25px; padding: 0 12px; overflow-x: auto; scrollbar-width: none; -ms-overflow-style: none; }
+            .pkg-quick-select-pills::-webkit-scrollbar { display: none; }
+            .pkg-quick-select-pills > .pkg-pill-nav:first-child { margin-left: auto; }
+            .pkg-quick-select-pills > .pkg-pill-nav:last-child { margin-right: auto; }
+            .pkg-pill-nav { background: transparent; border: 1px solid var(--gold-accent); color: var(--gold-accent); padding: 7px 10px; border-radius: 20px; font-family: var(--font-sub); text-transform: uppercase; font-weight: 700; font-size: 0.75rem; white-space: nowrap; flex-shrink: 0; cursor: pointer; transition: all 0.2s ease; }
+            .pkg-pill-nav.active { background: var(--gold-accent); color: var(--bg-dark); }
+            @media (max-width: 380px) {
+                .pkg-quick-select-pills { gap: 4px; padding: 0 2px; }
+                .pkg-pill-nav { font-size: 0.68rem; padding: 6px 8px; }
+            }
+
+            .packages-grid { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; gap: 16px; padding: 20px 7.5% 10px; margin-left: -5%; margin-right: -5%; width: calc(100% + 10%); scrollbar-width: none; -ms-overflow-style: none; }
+            .packages-grid::-webkit-scrollbar { display: none; }
+            .pkg-card { flex: 0 0 85%; scroll-snap-align: center; margin-top: 15px; }
+
+            /* Mobile Read More Toggle for About Cards */
+            .about-read-more-btn { display: inline-block; color: var(--gold-accent); font-family: var(--font-sub); font-weight: 700; text-transform: uppercase; font-size: 0.9rem; margin-top: -10px; margin-bottom: 15px; cursor: pointer; background: transparent; border: none; }
+            .about-expandable-content { display: none; }
+            .about-expandable-content.expanded { display: block; }
+        }
+        @keyframes trustScroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+        @media (prefers-reduced-motion: reduce) { .trust-grid { animation: none !important; overflow-x: auto !important; } }
+    </style>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="logo-container" onclick="openQrModal()" aria-label="Show QR code to share this website">
+            <img src="logo.png" alt="Click Marketing Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about" onclick="event.preventDefault(); scrollToHeading('about')">About</a></li>
+                <li><a href="#video-intro" onclick="event.preventDefault(); scrollToHeading('video-intro')">Showcase Video</a></li>
+                <li><a href="javascript:void(0)" onclick="scrollToPackages()">Packages & Pricing</a></li>
+            </ul>
+        </nav>
+        <div class="header-actions">
+            <button type="button" class="cta-btn gold-btn" onclick="downloadAppraisalFlyer()"><i class="fa-solid fa-file-pdf" style="margin-right: 6px;"></i>Download Appraisal Flyer</button>
+            <button type="button" class="cta-btn" onclick="scrollToPackages()">Book A Shoot</button>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-text" data-aos="fade-right" data-aos-duration="1000">
+            <div class="hero-tagline">Marketing evolved, made to click</div>
+            <h1>REAL ESTATE PHOTOGRAPHY & VIDEOGRAPHY</h1>
+            <p>High-speed HDR photography, cinematic walkthroughs, 4K aerial drone suites, and hands-off AI digital twin presentations built to streamline your marketing and accelerate time-to-market.</p>
+            <button type="button" class="cta-btn gold-btn hero-cta-desktop" onclick="scrollToPackages()">Select Package & Customise</button>
+        </div>
+        <div class="swiper swiper-container" data-aos="fade-left" data-aos-duration="1000">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="arch.webp" alt="Precision Architectural Stills"><div class="slide-caption">Precision Architectural Stills</div></div>
+                <div class="swiper-slide"><img src="gimble.webp" alt="Smooth Gimbal Video Walkthrough"><div class="slide-caption">Smooth Gimbal Video Walkthrough</div></div>
+                <div class="swiper-slide"><img src="drone.webp" alt="4K Aerial Drone Property Suite"><div class="slide-caption">4K Aerial Drone Property Suite</div></div>
+                <div class="swiper-slide"><img src="agent.webp" alt="Personal Digital Twin Avatar"><div class="slide-caption">Personal Digital Twin Avatar</div></div>
+            </div>
+            <div class="swiper-button-next" style="color: #FFF;"></div>
+            <div class="swiper-button-prev" style="color: #FFF;"></div>
+        </div>
+        <button type="button" class="cta-btn gold-btn hero-cta-mobile" onclick="scrollToPackages()">Select Package & Customise</button>
+    </section>
+
+    <!-- SHOWCASE -->
+    <div class="intro-video-section" id="video-intro">
+        <h2 class="section-title" data-aos="fade-up">See What Is Possible</h2>
+        <div class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Bespoke Video Walkthroughs & AI Campaign Trailers</div>
+        <div class="video-wrapper" data-aos="fade-up" data-aos-delay="200">
+            <div class="video-play-overlay" id="showcase-play-overlay" onclick="playShowcaseVideo()">
+                <div class="video-play-btn"><i class="fa-solid fa-play"></i></div>
+            </div>
+            <video id="showcase-video" controls playsinline preload="metadata" poster="arch.webp" style="width: 100%; height: auto; display: block; border-radius: 8px;">
+                <source src="website-video.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+    </div>
+
+    <!-- TRUST STRIP -->
+    <div class="trust-bar">
+        <div class="trust-grid">
+            <div class="trust-item"><i class="fa-solid fa-shield-halved"></i><h5>Built for REA-Compliant Marketing</h5><p>True-to-life media, with AI & virtual staging clearly labelled</p></div>
+            <div class="trust-item"><i class="fa-solid fa-music"></i><h5>Licensed Music</h5><p>Commercial soundtrack rights included</p></div>
+            <div class="trust-item"><i class="fa-solid fa-camera-retro"></i><h5>Pro Camera & HDR</h5><p>Full-frame architectural optics & ultra-HDR processing</p></div>
+            <div class="trust-item"><i class="fa-solid fa-bolt"></i><h5>Fast Turnaround</h5><p>Rapid cloud portal delivery</p></div>
+            <div class="trust-item"><i class="fa-solid fa-location-dot"></i><h5>Christchurch Local</h5><p>Proudly Canterbury owned & operated</p></div>
+            <div class="trust-item"><i class="fa-solid fa-leaf"></i><h5>Paperless & Eco-Friendly</h5><p>Environmentally friendly, 100% paperless cloud portal delivery</p></div>
+            <div class="trust-item"><i class="fa-solid fa-circle-check"></i><h5>Quality Guarantee</h5><p>Satisfaction assured before listing goes live</p></div>
+        </div>
+    </div>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+        <h2 class="section-title" data-aos="fade-up">Built By Real Estate Experience</h2>
+        <div class="section-subtitle" data-aos="fade-up" data-aos-delay="100">20 Years of Market Insight Turned Into Instant Output</div>
+        <div class="about-grid">
+            <div class="about-card" data-aos="fade-up" data-aos-delay="200">
+                <h3 style="font-size: 1.6rem; margin-bottom: 15px;">EXPERIENCE THAT MATTERS:</h3>
+                <p>Having spent 20 years in real estate, we understand the paramount importance of quality and speed to get your listing on the market. The less time an agent spends in listing preparation, the faster they get paid.</p>
+                <button type="button" class="about-read-more-btn" onclick="toggleAboutCard(this)">Read more ▾</button>
+                <div class="about-expandable-content">
+                    <p>We assist in integrating AI to your business to minimise your manual input while maximising your marketing output. Still shots, video walkthroughs, drone suites, virtual staging, and personalised videography, it can be as simple or as wild as you like.</p>
+                </div>
+                <div class="highlight-box">
+                    <h3 style="font-size: 1.2rem; margin-bottom: 5px;">Built for REA-Compliant Marketing</h3>
+                    <p style="color: var(--text-grey); font-size: 0.95rem; margin-bottom: 0;">All media is true to life. Virtual staging, digital enhancements and AI digital twin videos are always clearly labelled, created with Real Estate Authority advertising guidelines in mind.</p>
+                </div>
+            </div>
+            <div class="about-card" data-aos="fade-up" data-aos-delay="300">
+                <h3 style="font-size: 1.6rem; margin-bottom: 15px;">AI AVATAR HANDOVER & DIGITAL TWIN:</h3>
+                <p>Our digital avatar handoff process gives agents a completely hands-off solution. Choose an avatar video and your listing is presented by your own digital twin, an AI avatar that looks and sounds just like you.</p>
+                <button type="button" class="about-read-more-btn" onclick="toggleAboutCard(this)">Read more ▾</button>
+                <div class="about-expandable-content">
+                    <p>Leave it to us to complete branded campaign assets, video presentations, and listing collateral, delivered straight to you ready to publish. This will save you hours behind a camera or sitting through tedious video edits.</p>
+                </div>
+                <div class="highlight-box" style="border-left-color: var(--text-grey);">
+                    <h3 style="font-size: 1.2rem; margin-bottom: 5px;">Christchurch & Canterbury Wide</h3>
+                    <p style="color: var(--text-grey); font-size: 0.95rem; margin-bottom: 0;">Full-service coverage with rapid online portal file delivery.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PACKAGES & PRICING -->
+    <section id="booking">
+        <h2 class="section-title" data-aos="fade-up" data-aos-offset="0" id="booking-title">Packages & Custom Booking</h2>
+        <div class="section-subtitle" data-aos="fade-up" data-aos-delay="100" data-aos-offset="0" id="booking-subtitle">Step 1: Select A Master Package</div>
+        
+        <div class="pkg-quick-select-pills">
+            <button type="button" class="pkg-pill-nav" onclick="scrollToPackageCard('premier')">Premier $599</button>
+            <button type="button" class="pkg-pill-nav active" onclick="scrollToPackageCard('showcase')">★ Signature $1,099</button>
+            <button type="button" class="pkg-pill-nav" onclick="scrollToPackageCard('elite')">Elite $1,599</button>
+        </div>
+
+        <div class="packages-grid" id="packages-container-grid">
+            <div class="pkg-card" onclick="selectPackage('premier', 599)" id="pkg-premier" data-aos="fade-up" data-aos-delay="100" data-aos-offset="0">
+                <div class="pkg-label">Package 01</div>
+                <div class="pkg-title">Premier Essentials</div>
+                <div class="pkg-price">$599 <span>NZD</span></div>
+                <ul class="pkg-features">
+                    <li><i class="fa-solid fa-check"></i> Up to 25 Pro HDR Photos</li>
+                    <li><i class="fa-solid fa-check"></i> Wide-Angle & Lifestyle Framing</li>
+                    <li><i class="fa-solid fa-check"></i> Fast-Tracked Editing</li>
+                    <li><i class="fa-solid fa-check"></i> Web & Print Ready Files</li>
+                    <li><i class="fa-solid fa-check"></i> Online Delivery Portal</li>
+                </ul>
+                <button type="button" class="cta-btn" id="btn-premier" style="width: 100%;">Select Package</button>
+            </div>
+            <div class="pkg-card" onclick="selectPackage('showcase', 1099)" id="pkg-showcase" data-aos="fade-up" data-aos-delay="200" data-aos-offset="0">
+                <div class="pkg-badge-container">
+                    <div class="pkg-badge popular-badge">MOST POPULAR</div>
+                    <div class="pkg-badge">Save $100 vs. Standalone</div>
+                </div>
+                <div class="pkg-label">Package 02</div>
+                <div class="pkg-title">Signature Showcase</div>
+                <div class="pkg-price">$1,099 <span>NZD</span></div>
+                <ul class="pkg-features">
+                    <li><i class="fa-solid fa-check"></i> Premier Essentials Included</li>
+                    <li><i class="fa-solid fa-check"></i> Cinematic Walkthrough Video ($380)</li>
+                    <li><i class="fa-solid fa-check"></i> Avatar Listing Reel ($220)</li>
+                    <li><i class="fa-solid fa-check"></i> Personal Avatar Presenter</li>
+                    <li><i class="fa-solid fa-check"></i> Full-Frame Architectural Photography</li>
+                    <li><i class="fa-solid fa-check"></i> Licensed Music</li>
+                </ul>
+                <button type="button" class="cta-btn" id="btn-showcase" style="width: 100%;">Select Package</button>
+            </div>
+            <div class="pkg-card" onclick="selectPackage('elite', 1599)" id="pkg-elite" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0">
+                <div class="pkg-badge-container">
+                    <div class="pkg-badge">Save $350 vs. Standalone</div>
+                </div>
+                <div class="pkg-label">Package 03</div>
+                <div class="pkg-title">Elite Prestige</div>
+                <div class="pkg-price">$1,599 <span>NZD</span></div>
+                <ul class="pkg-features">
+                    <li><i class="fa-solid fa-check"></i> Signature Showcase Included</li>
+                    <li><i class="fa-solid fa-check"></i> 4K Drone Aerial Suite ($500)</li>
+                    <li><i class="fa-solid fa-check"></i> Neighbourhood Context Shots</li>
+                    <li><i class="fa-solid fa-check"></i> Elite Cinematic Avatar Reel ($350)</li>
+                    <li><i class="fa-solid fa-check"></i> VIP Priority Delivery</li>
+                </ul>
+                <button type="button" class="cta-btn" id="btn-elite" style="width: 100%;">Select Package</button>
+            </div>
+        </div>
+
+        <!-- Priority Partner Office Block -->
+        <div class="partner-office-block">
+            <h3>Bringing your whole office on board?</h3>
+            <p>Get priority scheduling, one point of contact, and consistent branding across every listing.</p>
+            <button type="button" class="cta-btn gold-btn" onclick="openPartnerModal()">Become a Priority Partner Office</button>
+        </div>
+
+        <div class="addons-section" id="addons-panel">
+            <div class="addons-header-bar">
+                <div class="addons-header-left">
+                    <h3 style="font-size: 1.8rem; color: var(--text-white);">Step 2: Enhance Your Shoot</h3>
+                    <p style="color: var(--text-grey); font-size: 0.95rem;">Optional upgrades for your selected package</p>
+                </div>
+                <div class="addons-header-right">
+                    <div>
+                        <div style="color: var(--text-grey); font-family: var(--font-sub); text-transform: uppercase; font-size: 0.8rem;">Estimated Total</div>
+                        <div style="font-family: var(--font-heading); font-size: 2rem; color: var(--gold-accent);" id="quote-price-display">$0 <span style="font-size: 0.85rem; color: var(--text-grey);">NZD</span></div>
+                    </div>
+                    <button type="button" class="cta-btn" style="background: var(--gold-accent); color: var(--bg-dark); padding: 14px 26px;" onclick="openBookingModal()">Confirm Booking</button>
+                </div>
+            </div>
+            <div class="addons-grid" id="addons-grid-container"></div>
+        </div>
+    </section>
+
+    <!-- STICKY SUMMARY BAR -->
+    <div class="sticky-summary-bar" id="sticky-bar">
+        <div class="summary-details">
+            <div class="summary-pkg-name" id="sticky-pkg-name">Selected: Signature Showcase</div>
+            <div class="summary-price" id="sticky-price-display">$1,099 <span style="font-size: 0.85rem; color: var(--text-grey);">NZD</span></div>
+        </div>
+        <div class="sticky-right-group">
+            <button type="button" class="cta-btn" onclick="openBookingModal()" style="padding: 10px 22px; font-size: 0.95rem;">Confirm & Book Shoot</button>
+            <button type="button" class="sticky-close-btn" onclick="dismissStickyBar()" aria-label="Close summary bar">&times;</button>
+        </div>
+    </div>
+
+    <!-- BOOKING MODAL -->
+    <div class="modal-overlay" id="booking-modal" onclick="handleOverlayClick(event)">
+        <div class="modal-container">
+            <button class="modal-close" onclick="closeBookingModal()">&times;</button>
+            <div class="modal-header">
+                <h2>Almost there</h2>
+                <p>Just a few quick questions before we get snapping — or email <strong style="color: var(--gold-accent);">info@clickmarketing.co.nz</strong> directly.</p>
+            </div>
+            <div class="modal-pkg-summary">
+                <div>
+                    <div style="font-family: var(--font-sub); text-transform: uppercase; color: var(--text-grey); font-size: 0.85rem;">Selected Package & Add-Ons</div>
+                    <h3 id="modal-pkg-title">Signature Showcase</h3>
+                </div>
+                <div class="price" id="modal-pkg-price">$1,099</div>
+            </div>
+            <form action="https://formspree.io/f/xdavjrqq" method="POST" id="modal-form" novalidate onsubmit="handleBookingSubmit(event)">
+                <input type="hidden" name="_subject" id="modal-email-subject" value="New Booking Request — Click Marketing">
+                <input type="hidden" name="_replyto" id="modal-replyto" value="">
+                <input type="hidden" name="selected_package" id="modal-input-package" value="Signature Showcase">
+                <input type="hidden" name="selected_addons" id="modal-input-addons" value="None">
+                <input type="hidden" name="total_price" id="modal-input-total" value="$1,099 NZD">
+                <input type="hidden" name="occupied_status" id="modal-input-occupied" value="Yes">
+                <input type="hidden" name="staged_status" id="modal-input-staged" value="Not staged">
+                <input type="hidden" name="lockbox_status" id="modal-input-lockbox" value="No">
+                <input type="hidden" name="access_coordinator" id="modal-input-access" value="Contact agent">
+                <input type="hidden" name="go_live_date" id="modal-input-date" value="ASAP">
+                <input type="hidden" name="first_avatar_video" id="modal-input-first-avatar" value="">
+                <input type="hidden" name="presenter_is_agent" id="modal-input-presenter-agent" value="Yes">
+                
+                <div class="form-grid">
+                    <div class="form-group full">
+                        <label for="modal-address">Property Address *</label>
+                        <input type="text" id="modal-address" name="address" placeholder="e.g. 123 Papanui Road, Christchurch" oninput="updateEmailSubject()" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="modal-agent">Agent Name *</label>
+                        <input type="text" id="modal-agent" name="agentName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="modal-agency">Agency *</label>
+                        <input type="text" id="modal-agency" name="agency" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="modal-email">Email *</label>
+                        <input type="email" id="modal-email" name="email" placeholder="you@agency.co.nz" oninput="updateReplyToEmail()" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="modal-phone">Phone *</label>
+                        <input type="tel" id="modal-phone" name="phone" autocomplete="tel" inputmode="tel" pattern="[0-9+()\-\s]*" required>
+                    </div>
+                    <div class="form-group full">
+                        <label>When does this property go live?</label>
+                        <div class="asap-toggle-box">
+                            <button type="button" class="asap-btn" id="modal-asap-btn" onclick="toggleModalAsap(true)">ASAP</button>
+                            <span style="color: var(--text-grey); font-size: 0.9rem;">or pick a date</span>
+                            <div class="date-picker-trigger" id="date-trigger-btn" onclick="toggleCalendarPopup(event, 'goLive')">
+                                <i class="fa-regular fa-calendar-days" style="color: var(--gold-accent);"></i>
+                                <span id="selected-date-display">Select Date</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-section-title">PROPERTY ACCESS</div>
+                
+                <div class="form-group full" style="margin-bottom: 15px;">
+                    <label>Is the property currently occupied?</label>
+                    <div class="pill-group">
+                        <button type="button" class="pill-btn active" onclick="setPill('occupied', 'Yes', this)">Yes</button>
+                        <button type="button" class="pill-btn" onclick="setPill('occupied', 'No', this)">No</button>
+                        <button type="button" class="pill-btn" onclick="setPill('occupied', 'Not sure', this)">Not sure</button>
+                    </div>
+                </div>
+
+                <div class="form-group full" id="modal-group-staged" style="display: none; margin-bottom: 15px;">
+                    <label>Will it be staged?</label>
+                    <div class="pill-group" id="staged-pill-group">
+                        <button type="button" class="pill-btn active" onclick="setStagedPill('Not staged', this)">Not Staged</button>
+                        <button type="button" class="pill-btn" onclick="setStagedPill('Staged / ready now', this)">Staged / Ready Now</button>
+                        <button type="button" class="pill-btn" onclick="setStagedPill('Not sure', this)">Not Sure</button>
+                    </div>
+                    <div style="margin-top: 10px; display: flex; align-items: center; gap: 10px;">
+                        <span style="color: var(--text-grey); font-size: 0.85rem;">Or pick staging date:</span>
+                        <div class="date-picker-trigger" id="stage-date-trigger-btn" onclick="toggleCalendarPopup(event, 'staging')">
+                            <i class="fa-regular fa-calendar-days" style="color: var(--gold-accent);"></i>
+                            <span id="selected-stage-date-display">Pick Staging Date</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group full" id="modal-group-lockbox" style="display: none; margin-bottom: 15px;">
+                    <label>Is there a lockbox on site?</label>
+                    <div class="pill-group">
+                        <button type="button" class="pill-btn" onclick="setPill('lockbox', 'Yes', this)">Yes</button>
+                        <button type="button" class="pill-btn active" onclick="setPill('lockbox', 'No', this)">No</button>
+                        <button type="button" class="pill-btn" onclick="setPill('lockbox', 'Not sure', this)">Not sure</button>
+                    </div>
+                </div>
+                <div class="form-grid" id="modal-group-lockbox-fields" style="display: none;">
+                    <div class="form-group"><label>Lockbox Code</label><input type="text" name="lockboxCode" placeholder="Code"></div>
+                    <div class="form-group"><label>Lockbox Location</label><input type="text" name="lockboxLocation" placeholder="Location"></div>
+                </div>
+
+                <div class="form-group full" id="modal-group-access-picker" style="margin-bottom: 15px;">
+                    <label>Who should Dan coordinate access with?</label>
+                    <div class="pill-group" id="access-pills-container" style="flex-direction: column; align-items: stretch;">
+                        <button type="button" class="pill-btn active" onclick="setPill('access', 'Contact agent', this)" id="pill-access-agent">Contact agent</button>
+                        <button type="button" class="pill-btn" onclick="setPill('access', 'Contact vendor', this)" id="pill-access-vendor">Contact vendor</button>
+                        <button type="button" class="pill-btn" onclick="setPill('access', 'Contact tenant', this)" id="pill-access-tenant">Contact tenant</button>
+                        <button type="button" class="pill-btn" onclick="setPill('access', 'Other', this)" id="pill-access-other">Other</button>
+                    </div>
+                </div>
+                <div class="form-grid" id="modal-vendor-fields" style="display: none;">
+                    <div class="form-group"><label>Vendor Email</label><input type="email" name="vendorEmail"></div>
+                    <div class="form-group"><label>Vendor Phone</label><input type="tel" name="vendorPhone" autocomplete="tel" inputmode="tel" pattern="[0-9+()\-\s]*"></div>
+                </div>
+                <div class="form-grid" id="modal-tenant-fields" style="display: none;">
+                    <div class="form-group"><label>Tenant Email</label><input type="email" name="tenantEmail"></div>
+                    <div class="form-group"><label>Tenant Phone</label><input type="tel" name="tenantPhone" autocomplete="tel" inputmode="tel" pattern="[0-9+()\-\s]*"></div>
+                </div>
+                <div class="form-group full" id="modal-other-fields" style="display: none;">
+                    <label>Please Provide Access Details</label>
+                    <input type="text" name="accessOtherDetails" placeholder="Key pickup or contact notes">
+                </div>
+
+                <!-- YOUR PERSONAL AI AVATAR SECTION -->
+                <div id="avatar-section" style="display: none;">
+                    <div class="modal-section-title">YOUR PERSONAL AI AVATAR</div>
+                    
+                    <div class="form-group full" style="margin-bottom: 15px;">
+                        <label>Is this your first avatar video with us? *</label>
+                        <div class="pill-group" id="first-avatar-pill-group">
+                            <button type="button" class="pill-btn" onclick="setPill('first_avatar', 'Yes', this)">Yes</button>
+                            <button type="button" class="pill-btn" onclick="setPill('first_avatar', 'No', this)">No</button>
+                        </div>
+                    </div>
+
+                    <div id="first-avatar-fields" style="display: none; margin-bottom: 15px;">
+                        <p style="color: var(--text-grey); font-size: 0.85rem; margin-bottom: 15px;">Great! After booking, we'll email a quick guide to record a short 2-minute video on your phone. That's all we need to create your personal AI avatar.</p>
+                        
+                        <div class="form-group full" style="margin-bottom: 15px;">
+                            <label>Is the agent named above the person appearing in the video?</label>
+                            <div class="pill-group">
+                                <button type="button" class="pill-btn active" onclick="setPill('presenter_agent', 'Yes', this)">Yes</button>
+                                <button type="button" class="pill-btn" onclick="setPill('presenter_agent', 'No', this)">No</button>
+                            </div>
+                        </div>
+
+                        <div class="form-grid" id="presenter-custom-fields" style="display: none; margin-bottom: 15px;">
+                            <div class="form-group">
+                                <label for="modal-presenter-name">Presenter's Name *</label>
+                                <input type="text" id="modal-presenter-name" name="presenter_name">
+                            </div>
+                            <div class="form-group">
+                                <label for="modal-presenter-email">Presenter's Email *</label>
+                                <input type="email" id="modal-presenter-email" name="presenter_email">
+                            </div>
+                        </div>
+
+                        <label class="checkbox-container">
+                            <input type="checkbox" id="modal-avatar-consent" name="avatar_consent" value="Agreed">
+                            <span>I confirm the presenter agrees to Click Marketing creating a personal AI avatar (digital twin) from their recorded video and voice. The avatar will only be used to produce marketing videos requested by the presenter, the presenter will complete a short identity verification, and the avatar can be deleted on request.</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-group full" style="margin-top: 20px;">
+                    <label>Are there any other special instructions for this job?</label>
+                    <textarea name="specialInstructions" rows="3" placeholder="Access details, pet notes, or listing reel notes..."></textarea>
+                </div>
+
+                <div style="margin-top: 25px;">
+                    <button type="submit" id="modal-submit-btn" class="cta-btn" style="width: 100%; padding: 16px; background: var(--gold-accent); color: var(--bg-dark); font-size: 1.1rem;">Send Booking Request</button>
+                    <div class="modal-error-msg" id="modal-error-display"></div>
+                    <p style="text-align: center; color: var(--text-grey); font-size: 0.8rem; margin-top: 10px;">No payment required today, we will confirm details before the shoot.</p>
+                    <p style="text-align: center; color: var(--text-grey); font-size: 0.8rem; margin-top: 4px;">By sending this request you agree to our <a href="privacy.html" onclick="openPrivacyModal(event)" style="color: var(--gold-accent); text-decoration: underline;">Privacy Policy</a>.</p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- PRIORITY PARTNER OFFICE MODAL -->
+    <div class="modal-overlay" id="partner-modal" onclick="handlePartnerOverlayClick(event)">
+        <div class="modal-container">
+            <button class="modal-close" onclick="closePartnerModal()">&times;</button>
+            <div class="modal-header">
+                <h2>Priority Partner Office Enquiry</h2>
+                <p>Consistent branding, priority scheduling, and volume rates for your office.</p>
+            </div>
+            <form action="https://formspree.io/f/xdavjrqq" method="POST" id="partner-form" novalidate onsubmit="handlePartnerSubmit(event)">
+                <input type="hidden" name="_subject" value="Priority Partner Office Enquiry">
+                <input type="hidden" name="enquiry_type" value="Partner Office">
+                
+                <div class="form-grid">
+                    <div class="form-group full">
+                        <label for="partner-name">Name *</label>
+                        <input type="text" id="partner-name" name="name" required>
+                    </div>
+                    <div class="form-group full">
+                        <label for="partner-agency">Agency / Office *</label>
+                        <input type="text" id="partner-agency" name="agency" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="partner-email">Email *</label>
+                        <input type="email" id="partner-email" name="email" placeholder="you@agency.co.nz" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="partner-phone">Phone *</label>
+                        <input type="tel" id="partner-phone" name="phone" autocomplete="tel" inputmode="tel" pattern="[0-9+()\-\s]*" required>
+                    </div>
+                    <div class="form-group full">
+                        <label for="partner-agents-count">Number of agents in your office</label>
+                        <select id="partner-agents-count" name="agent_count">
+                            <option value="">Select range...</option>
+                            <option value="1-5">1–5</option>
+                            <option value="6-15">6–15</option>
+                            <option value="16-30">16–30</option>
+                            <option value="30+">30+</option>
+                        </select>
+                    </div>
+                    <div class="form-group full">
+                        <label for="partner-message">Message</label>
+                        <textarea id="partner-message" name="message" rows="3" placeholder="Tell us about your team or any specific requirements..."></textarea>
+                    </div>
+                </div>
+
+                <div style="margin-top: 15px;">
+                    <button type="submit" id="partner-submit-btn" class="cta-btn" style="width: 100%; padding: 16px; background: var(--gold-accent); color: var(--bg-dark); font-size: 1.1rem;">Send Enquiry</button>
+                    <p style="text-align: center; color: var(--text-grey); font-size: 0.8rem; margin-top: 10px;">By sending this request you agree to our <a href="privacy.html" onclick="openPrivacyModal(event)" style="color: var(--gold-accent); text-decoration: underline;">Privacy Policy</a>.</p>
+                    <div class="modal-error-msg" id="partner-error-display"></div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- APPRAISAL FLYER MODAL -->
+    <div class="modal-overlay" id="flyer-modal" onclick="handleFlyerOverlayClick(event)">
+        <div class="modal-container">
+            <button class="modal-close" onclick="closeFlyerModal()">&times;</button>
+            <div class="modal-header">
+                <h2>Appraisal Flyer</h2>
+            </div>
+            <div class="flyer-body-scroll">
+                <img src="flyer-preview.webp" alt="Click Marketing Appraisal Flyer">
+            </div>
+            <div class="flyer-modal-actions" id="flyer-actions-container">
+                <!-- Injected via JavaScript based on device type -->
+            </div>
+        </div>
+    </div>
+
+    <!-- PRIVACY POLICY MODAL -->
+    <div class="modal-overlay" id="privacy-modal" onclick="handlePrivacyOverlayClick(event)">
+        <div class="modal-container">
+            <button class="modal-close" onclick="closePrivacyModal()">&times;</button>
+            <div class="modal-header">
+                <h2>Privacy Policy</h2>
+            </div>
+            <iframe src="privacy.html?embed=1" title="Privacy Policy" loading="lazy"></iframe>
+            <div class="privacy-modal-actions">
+                <button type="button" class="cta-btn" onclick="closePrivacyModal()">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- QR SHARE MODAL -->
+    <div class="modal-overlay" id="qr-modal" onclick="handleQrOverlayClick(event)">
+        <div class="modal-container">
+            <button class="modal-close" onclick="closeQrModal()">&times;</button>
+            <h3>Scan to visit Click Marketing</h3>
+            <img src="qr-share.png" alt="QR code for clickmarketing.co.nz">
+            <p>www.clickmarketing.co.nz</p>
+        </div>
+    </div>
+
+    <!-- REUSABLE CALENDAR POPUP -->
+    <div class="calendar-popup" id="cal-popup" onclick="event.stopPropagation()">
+        <div class="cal-header">
+            <button type="button" class="cal-nav-btn" id="cal-prev-btn" onclick="prevMonth()"><i class="fa-solid fa-chevron-left"></i></button>
+            <div class="cal-title" id="cal-month-year">OCTOBER 2026</div>
+            <button type="button" class="cal-nav-btn" onclick="nextMonth()"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+        <div class="cal-grid" id="cal-grid-days"></div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer id="contact">
+        <div class="logo-container" style="margin-bottom: 20px;" onclick="openQrModal()" aria-label="Show QR code to share this website">
+            <img src="logo.png" alt="Click Marketing Logo" style="margin: 0 auto; height: 121px;">
+        </div>
+        <p style="color: var(--text-grey); font-family: var(--font-sub); text-transform: uppercase; letter-spacing: 1px;">Marketing Evolved, Made To Click</p>
+        <p style="color: var(--text-grey); margin-top: 5px; font-size: 0.95rem;">Contact: <a href="mailto:info@clickmarketing.co.nz" style="color: var(--gold-accent);">info@clickmarketing.co.nz</a></p>
+        <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+            <a href="javascript:void(0)" onclick="downloadAppraisalFlyer()" class="footer-flyer-link"><i class="fa-solid fa-file-pdf" style="margin-right: 6px;"></i>Download Appraisal Flyer</a>
+            <a href="privacy.html" onclick="openPrivacyModal(event)" class="footer-flyer-link"><i class="fa-solid fa-shield-halved" style="margin-right: 6px;"></i>Privacy Policy</a>
+        </div>
+        <div class="footer-socials">
+            <a href="https://www.facebook.com/clickmarketingnz" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/clickmarketingnz/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://youtube.com/@clickmarketingnz" target="_blank" rel="noopener" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.tiktok.com/@clickmarketingnz" target="_blank" rel="noopener" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+        <div class="footer-copy">&copy; 2026 Click Marketing. All Rights Reserved. Christchurch, NZ.</div>
+    </footer>
+
+    <!-- Hidden iframe for desktop flyer printing -->
+    <iframe id="pdf-print-frame" style="display: none;"></iframe>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        function playSubtleCameraClick() {
+            try {
+                if (audioCtx.state === 'suspended') audioCtx.resume();
+                const bufferSize = audioCtx.sampleRate * 0.015;
+                const buffer = audioCtx.createBuffer(1, bufferSize, audioCtx.sampleRate);
+                const data = buffer.getChannelData(0);
+                for (let i = 0; i < bufferSize; i++) data[i] = (Math.random() * 2 - 1) * Math.exp(-i / (bufferSize * 0.2));
+                const noise = audioCtx.createBufferSource();
+                noise.buffer = buffer;
+                const filter = audioCtx.createBiquadFilter();
+                filter.type = 'highpass';
+                filter.frequency.value = 1200;
+                const gain = audioCtx.createGain();
+                gain.gain.setValueAtTime(0.08, audioCtx.currentTime);
+                gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.015);
+                noise.connect(filter);
+                filter.connect(gain);
+                gain.connect(audioCtx.destination);
+                noise.start();
+            } catch(e) {}
+        }
+
+        /* Scroll so an element sits just below the fixed header (all browsers/devices) */
+        function scrollToElement(target, gap) {
+            if (!target) return;
+            let y = 0, el = target;
+            while (el) { y += el.offsetTop; el = el.offsetParent; }
+            const header = document.querySelector('header');
+            const headerH = header ? header.getBoundingClientRect().height : 0;
+            const top = Math.max(0, y - headerH - (gap || 24));
+            try { window.scrollTo({ top: top, behavior: 'smooth' }); }
+            catch (e) { window.scrollTo(0, top); }
+        }
+
+        function scrollToHeading(sectionId) {
+            const section = document.getElementById(sectionId);
+            if (!section) return;
+            section.querySelectorAll('[data-aos]').forEach(el => el.classList.add('aos-animate'));
+            scrollToElement(section.querySelector('h2') || section, 24);
+        }
+
+        function scrollToPackages() {
+            scrollToHeading('booking');
+            if (window.innerWidth <= 900) {
+                setTimeout(centerSignatureOnMobile, 50);
+            }
+        }
+
+        function centerSignatureOnMobile() {
+            const grid = document.getElementById('packages-container-grid');
+            const targetCard = document.getElementById('pkg-showcase');
+            if (grid && targetCard) {
+                const scrollPos = targetCard.offsetLeft - (grid.clientWidth - targetCard.clientWidth) / 2;
+                grid.scrollLeft = Math.max(0, scrollPos);
+            }
+        }
+
+        function scrollToPackageCard(pkgKey) {
+            playSubtleCameraClick();
+            const grid = document.getElementById('packages-container-grid');
+            const targetCard = document.getElementById(`pkg-${pkgKey}`);
+            if (grid && targetCard) {
+                const scrollPos = targetCard.offsetLeft - (grid.clientWidth - targetCard.clientWidth) / 2;
+                grid.scrollTo({ left: Math.max(0, scrollPos), behavior: 'smooth' });
+            }
+        }
+
+        /* QR Share Modal Functions */
+        function openQrModal() {
+            playSubtleCameraClick();
+            if (typeof gtag === 'function') {
+                gtag('event', 'qr_share_open');
+            }
+            document.getElementById('qr-modal').classList.add('active');
+        }
+
+        function closeQrModal() {
+            document.getElementById('qr-modal').classList.remove('active');
+        }
+
+        function handleQrOverlayClick(e) {
+            if (e.target.classList.contains('modal-overlay')) closeQrModal();
+        }
+
+        /* Flyer Modal & Action Handlers */
+        function downloadAppraisalFlyer() {
+            playSubtleCameraClick();
+            if (typeof gtag === 'function') {
+                gtag('event', 'flyer_download');
+            }
+            setupFlyerActions();
+            document.getElementById('flyer-modal').classList.add('active');
+        }
+
+        function setupFlyerActions() {
+            const container = document.getElementById('flyer-actions-container');
+            const isMobile = ('ontouchstart' in window) || (window.innerWidth <= 900);
+            
+            if (isMobile) {
+                container.innerHTML = `
+                    <button type="button" class="cta-btn gold-btn" onclick="shareOrSaveFlyerMobile()">Save or Share PDF</button>
+                    <button type="button" class="cta-btn" onclick="closeFlyerModal()">Close</button>
+                `;
+            } else {
+                container.innerHTML = `
+                    <button type="button" class="cta-btn gold-btn" onclick="printFlyerDesktop()">Print</button>
+                    <button type="button" class="cta-btn" onclick="downloadFlyerDirect('desktop')">Download PDF</button>
+                    <button type="button" class="cta-btn" onclick="closeFlyerModal()" style="background: transparent; color: var(--text-grey); border: 1px solid var(--accent-grey);">Close</button>
+                `;
+            }
+        }
+
+        async function shareOrSaveFlyerMobile() {
+            if (typeof gtag === 'function') {
+                gtag('event', 'flyer_pdf_open', { method: 'share' });
+            }
+            try {
+                const res = await fetch('click_marketing_appraisal_flyer.pdf');
+                const blob = await res.blob();
+                const file = new File([blob], 'click_marketing_appraisal_flyer.pdf', { type: 'application/pdf' });
+                if (navigator.canShare && navigator.canShare({ files: [file] })) {
+                    await navigator.share({ files: [file], title: 'Click Marketing Appraisal Flyer' });
+                } else {
+                    downloadFlyerDirect('mobile_fallback');
+                }
+            } catch (err) {
+                if (err.name !== 'AbortError') {
+                    downloadFlyerDirect('mobile_fallback');
+                }
+            }
+        }
+
+        function printFlyerDesktop() {
+            if (typeof gtag === 'function') {
+                gtag('event', 'flyer_pdf_open', { method: 'print' });
+            }
+            const iframe = document.getElementById('pdf-print-frame');
+            iframe.src = 'click_marketing_appraisal_flyer.pdf';
+            iframe.onload = function() {
+                try {
+                    iframe.contentWindow.focus();
+                    iframe.contentWindow.print();
+                } catch (e) {
+                    downloadFlyerDirect('print_fallback');
+                }
+            };
+        }
+
+        function downloadFlyerDirect(method) {
+            if (typeof gtag === 'function') {
+                gtag('event', 'flyer_pdf_open', { method: method || 'download' });
+            }
+            const link = document.createElement('a');
+            link.href = 'click_marketing_appraisal_flyer.pdf';
+            link.download = 'click_marketing_appraisal_flyer.pdf';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+
+        function closeFlyerModal() {
+            document.getElementById('flyer-modal').classList.remove('active');
+        }
+
+        function handleFlyerOverlayClick(e) {
+            if (e.target.classList.contains('modal-overlay')) closeFlyerModal();
+        }
+
+        function openPrivacyModal(e) {
+            if (e && typeof e.preventDefault === 'function') {
+                e.preventDefault();
+            }
+            playSubtleCameraClick();
+            document.getElementById('privacy-modal').classList.add('active');
+        }
+
+        function closePrivacyModal() {
+            document.getElementById('privacy-modal').classList.remove('active');
+        }
+
+        function handlePrivacyOverlayClick(e) {
+            if (e.target.classList.contains('modal-overlay')) closePrivacyModal();
+        }
+
+        function toggleAboutCard(btn) {
+            playSubtleCameraClick();
+            const parentCard = btn.closest('.about-card');
+            const content = parentCard.querySelector('.about-expandable-content');
+            if (content.classList.contains('expanded')) {
+                content.classList.remove('expanded');
+                btn.innerText = 'Read more ▾';
+            } else {
+                content.classList.add('expanded');
+                btn.innerText = 'Show less ▴';
+            }
+        }
+
+        function playShowcaseVideo() {
+            const video = document.getElementById('showcase-video');
+            const overlay = document.getElementById('showcase-play-overlay');
+            if (video) {
+                video.play();
+                if (overlay) overlay.style.display = 'none';
+            }
+        }
+
+        const scheduleData = {
+            packages: {
+                'premier': { name: 'Premier Essentials', price: 599, included: [] },
+                'showcase': { name: 'Signature Showcase', price: 1099, included: ['walkthrough', 'listing_reel'] },
+                'elite': { name: 'Elite Prestige', price: 1599, included: ['walkthrough', 'listing_reel', 'elite_avatar', 'drone_suite'] }
+            },
+            addons: [
+                { id: 'walkthrough', name: 'Cinematic Walkthrough Video', desc: 'Landscape property tour', price: 380 },
+                { id: 'listing_reel', name: 'Avatar Listing Reel', desc: 'Your personal AI avatar presenting the listing.', price: 220 },
+                { id: 'elite_avatar', name: 'Elite Cinematic Avatar Reel', desc: 'Your personal AI avatar presenting the listing.', price: 350 },
+                { id: 'drone_suite', name: 'Drone Aerial Suite', desc: 'Up to 10 photos & 5 videos', price: 500 },
+                { id: 'twilight', name: 'Twilight Sunset Shoot', desc: '30 min sunset session', price: 120 },
+                { id: 'floorplan', name: 'Professional Floor Plan', desc: 'Accurate 2D floor layout', price: 150 },
+                { id: 'virtual', name: 'Virtual Staging (5 Rooms)', desc: '5 digitally furnished rooms', price: 150 },
+                { id: 'copywriting', name: 'Listing Copywriting', desc: 'Property description written to sell', price: 85 }
+            ]
+        };
+
+        let currentPackageKey = '';
+        let activeAddons = new Set();
+        let isStickyDismissed = false;
+        let lastSelectedAccessOption = 'Contact agent';
+
+        const todayDateObj = new Date();
+        const startYear = todayDateObj.getFullYear();
+        const startMonth = todayDateObj.getMonth();
+        let currYear = startYear;
+        let currMonth = startMonth;
+        const todayDay = todayDateObj.getDate();
+        let activeCalendarMode = 'goLive';
+
+        let selectedDates = {
+            goLive: null,
+            staging: null
+        };
+
+        const monthNames = ["JANUARY", "FEBRUARY", "MARCH", "APRIL", "MAY", "JUNE", "JULY", "AUGUST", "SEPTEMBER", "OCTOBER", "NOVEMBER", "DECEMBER"];
+
+        AOS.init({ duration: 800, once: true, offset: 100 });
+        new Swiper('.swiper-container', {
+            loop: true,
+            autoplay: { delay: 4000 },
+            navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' },
+        });
+
+        function renderAddonsPanel() {
+            const container = document.getElementById('addons-grid-container');
+            container.innerHTML = '';
+            const currentPkg = scheduleData.packages[currentPackageKey];
+            scheduleData.addons.forEach(addon => {
+                if (currentPkg.included.includes(addon.id)) return;
+                const isChecked = activeAddons.has(addon.id);
+                const addonEl = document.createElement('label');
+                addonEl.className = 'addon-item';
+                addonEl.innerHTML = `
+                    <input type="checkbox" onchange="toggleAddon('${addon.id}')" ${isChecked ? 'checked' : ''}>
+                    <div>
+                        <h4 style="font-size: 1rem;">${addon.name}</h4>
+                        <p style="font-size: 0.8rem; color: var(--text-grey);">${addon.desc}</p>
+                    </div>
+                    <div style="margin-left: auto; font-family: var(--font-heading); color: var(--gold-accent);">+$${addon.price}</div>
+                `;
+                container.appendChild(addonEl);
+            });
+        }
+
+        function checkAvatarSectionVisibility() {
+            const isAvatarPackage = (currentPackageKey === 'showcase' || currentPackageKey === 'elite');
+            const isAvatarAddonSelected = (activeAddons.has('listing_reel') || activeAddons.has('elite_avatar'));
+            const avatarSection = document.getElementById('avatar-section');
+
+            if (isAvatarPackage || isAvatarAddonSelected) {
+                avatarSection.style.display = 'block';
+            } else {
+                avatarSection.style.display = 'none';
+                document.getElementById('modal-input-first-avatar').value = '';
+                const firstPills = document.getElementById('first-avatar-pill-group').querySelectorAll('.pill-btn');
+                firstPills.forEach(b => b.classList.remove('active'));
+                
+                document.getElementById('first-avatar-fields').style.display = 'none';
+                document.getElementById('modal-avatar-consent').required = false;
+                document.getElementById('modal-avatar-consent').checked = false;
+                
+                document.getElementById('presenter-custom-fields').style.display = 'none';
+                document.getElementById('modal-presenter-name').required = false;
+                document.getElementById('modal-presenter-name').value = '';
+                document.getElementById('modal-presenter-email').required = false;
+                document.getElementById('modal-presenter-email').value = '';
+            }
+        }
+
+        function selectPackage(key, price) {
+            playSubtleCameraClick();
+            currentPackageKey = key;
+            const pkgInfo = scheduleData.packages[key];
+            if (pkgInfo && typeof gtag === 'function') {
+                gtag('event', 'select_package', { package_name: pkgInfo.name });
+            }
+
+            document.querySelectorAll('.pkg-card').forEach(card => card.classList.remove('selected'));
+            document.getElementById(`pkg-${key}`).classList.add('selected');
+            document.getElementById('btn-premier').innerText = 'Select Package';
+            document.getElementById('btn-showcase').innerText = 'Select Package';
+            document.getElementById('btn-elite').innerText = 'Select Package';
+            document.getElementById(`btn-${key}`).innerText = 'Selected Package ✓';
+
+            const currentPkg = scheduleData.packages[key];
+            activeAddons.forEach(id => {
+                if (currentPkg.included.includes(id)) activeAddons.delete(id);
+            });
+
+            renderAddonsPanel();
+            calculateTotal();
+            checkAvatarSectionVisibility();
+            const panel = document.getElementById('addons-panel');
+            panel.style.display = 'block';
+            if (!isStickyDismissed) document.getElementById('sticky-bar').classList.add('active');
+            scrollToElement(panel, 24);
+        }
+
+        function toggleAddon(id) {
+            playSubtleCameraClick();
+            if (activeAddons.has(id)) activeAddons.delete(id);
+            else activeAddons.add(id);
+            calculateTotal();
+            checkAvatarSectionVisibility();
+        }
+
+        function calculateTotal() {
+            if (!currentPackageKey) return;
+            const pkg = scheduleData.packages[currentPackageKey];
+            let total = pkg.price;
+            let addonNames = [];
+            activeAddons.forEach(addonId => {
+                const item = scheduleData.addons.find(a => a.id === addonId);
+                if (item) {
+                    total += item.price;
+                    addonNames.push(item.name);
+                }
+            });
+            const displayStr = `$${total.toLocaleString()} <span style="font-size: 0.85rem; color: var(--text-grey);">NZD</span>`;
+            document.getElementById('quote-price-display').innerHTML = displayStr;
+            document.getElementById('sticky-price-display').innerHTML = displayStr;
+            document.getElementById('sticky-pkg-name').innerText = `Selected: ${pkg.name}`;
+            document.getElementById('modal-pkg-title').innerText = pkg.name + (addonNames.length > 0 ? ` (+ ${addonNames.length} Add-on${addonNames.length > 1 ? 's' : ''})` : '');
+            document.getElementById('modal-pkg-price').innerText = `$${total.toLocaleString()}`;
+            document.getElementById('modal-input-package').value = pkg.name;
+            document.getElementById('modal-input-addons').value = addonNames.length > 0 ? addonNames.join(', ') : 'None';
+            document.getElementById('modal-input-total').value = `$${total} NZD`;
+        }
+
+        function updateEmailSubject() {
+            const addr = document.getElementById('modal-address').value.trim();
+            const isFirstAvatar = document.getElementById('modal-input-first-avatar').value === 'Yes';
+            const prefix = isFirstAvatar ? '[NEW AVATAR] ' : '';
+            document.getElementById('modal-email-subject').value = addr ? `${prefix}New Booking Request — ${addr}` : `${prefix}New Booking Request — Click Marketing`;
+        }
+
+        function updateReplyToEmail() {
+            const email = document.getElementById('modal-email').value.trim();
+            document.getElementById('modal-replyto').value = email;
+        }
+
+        function dismissStickyBar() {
+            isStickyDismissed = true;
+            document.getElementById('sticky-bar').classList.remove('active');
+            document.getElementById('sticky-bar').classList.add('dismissed');
+        }
+
+        function openBookingModal() {
+            if (typeof gtag === 'function') {
+                gtag('event', 'booking_form_open');
+            }
+            playSubtleCameraClick();
+            calculateTotal();
+            checkAvatarSectionVisibility();
+            document.getElementById('modal-error-display').style.display = 'none';
+            document.getElementById('booking-modal').classList.add('active');
+        }
+
+        function closeBookingModal() {
+            document.getElementById('booking-modal').classList.remove('active');
+        }
+
+        function handleOverlayClick(e) {
+            if (e.target.classList.contains('modal-overlay')) closeBookingModal();
+        }
+
+        /* Priority Partner Modal Handlers */
+        function openPartnerModal() {
+            if (typeof gtag === 'function') {
+                gtag('event', 'partner_form_open');
+            }
+            playSubtleCameraClick();
+            document.getElementById('partner-error-display').style.display = 'none';
+            document.getElementById('partner-modal').classList.add('active');
+        }
+
+        function closePartnerModal() {
+            document.getElementById('partner-modal').classList.remove('active');
+        }
+
+        function handlePartnerOverlayClick(e) {
+            if (e.target.classList.contains('modal-overlay')) closePartnerModal();
+        }
+
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                if (document.getElementById('qr-modal').classList.contains('active')) {
+                    closeQrModal();
+                } else if (document.getElementById('privacy-modal').classList.contains('active')) {
+                    closePrivacyModal();
+                } else if (document.getElementById('flyer-modal').classList.contains('active')) {
+                    closeFlyerModal();
+                } else {
+                    closeBookingModal();
+                    closePartnerModal();
+                    closeCalendarPopup();
+                }
+            }
+        });
+
+        function toggleModalAsap(isAsap) {
+            playSubtleCameraClick();
+            const asapBtn = document.getElementById('modal-asap-btn');
+            if (isAsap) {
+                asapBtn.classList.remove('inactive');
+                document.getElementById('selected-date-display').innerText = 'Select Date';
+                document.getElementById('modal-input-date').value = 'ASAP';
+                selectedDates.goLive = null;
+                closeCalendarPopup();
+            }
+        }
+
+        function toggleCalendarPopup(e, mode) {
+            e.stopPropagation();
+            playSubtleCameraClick();
+            activeCalendarMode = mode || 'goLive';
+            const popup = document.getElementById('cal-popup');
+            
+            if (activeCalendarMode === 'staging') {
+                const trigger = document.getElementById('stage-date-trigger-btn');
+                trigger.appendChild(popup);
+            } else {
+                const trigger = document.getElementById('date-trigger-btn');
+                trigger.appendChild(popup);
+            }
+
+            const activeDate = selectedDates[activeCalendarMode];
+            if (activeDate) {
+                currYear = activeDate.year;
+                currMonth = activeDate.month;
+            } else {
+                currYear = startYear;
+                currMonth = startMonth;
+            }
+
+            popup.classList.toggle('active');
+            if (popup.classList.contains('active')) {
+                renderCalendar();
+            }
+        }
+
+        function closeCalendarPopup() {
+            document.getElementById('cal-popup').classList.remove('active');
+        }
+
+        document.addEventListener('click', function(e) {
+            const popup = document.getElementById('cal-popup');
+            if (popup && !popup.contains(e.target) && !e.target.closest('#date-trigger-btn') && !e.target.closest('#stage-date-trigger-btn')) {
+                closeCalendarPopup();
+            }
+        });
+
+        function renderCalendar() {
+            document.getElementById('cal-month-year').innerText = `${monthNames[currMonth]} ${currYear}`;
+            const prevBtn = document.getElementById('cal-prev-btn');
+            if (currYear === startYear && currMonth === startMonth) {
+                prevBtn.disabled = true;
+            } else {
+                prevBtn.disabled = false;
+            }
+
+            const grid = document.getElementById('cal-grid-days');
+            grid.innerHTML = `
+                <div class="cal-day-head">M</div><div class="cal-day-head">T</div><div class="cal-day-head">W</div>
+                <div class="cal-day-head">T</div><div class="cal-day-head">F</div><div class="cal-day-head">S</div><div class="cal-day-head">S</div>
+            `;
+            const firstDay = new Date(currYear, currMonth, 1).getDay();
+            const offset = (firstDay === 0) ? 6 : firstDay - 1;
+            const daysInMonth = new Date(currYear, currMonth + 1, 0).getDate();
+
+            const activeSel = selectedDates[activeCalendarMode];
+
+            for (let i = 0; i < offset; i++) grid.innerHTML += `<div class="cal-day empty"></div>`;
+            for (let d = 1; d <= daysInMonth; d++) {
+                const isPast = (currYear < startYear) || (currYear === startYear && currMonth < startMonth) || (currYear === startYear && currMonth === startMonth && d < todayDay);
+                const isToday = (currYear === startYear && currMonth === startMonth && d === todayDay);
+                const isSelected = activeSel && (activeSel.year === currYear && activeSel.month === currMonth && activeSel.day === d);
+
+                if (isPast) {
+                    grid.innerHTML += `<div class="cal-day disabled">${d}</div>`;
+                } else {
+                    let dayClass = 'cal-day';
+                    if (isSelected) dayClass += ' selected-day';
+                    else if (isToday) dayClass += ' today';
+                    
+                    grid.innerHTML += `<div class="${dayClass}" onclick="selectCalendarDate(${d})">${d}</div>`;
+                }
+            }
+        }
+
+        function prevMonth() {
+            if (currYear === startYear && currMonth === startMonth) return;
+            playSubtleCameraClick();
+            currMonth--;
+            if (currMonth < 0) { currMonth = 11; currYear--; }
+            renderCalendar();
+        }
+
+        function nextMonth() {
+            playSubtleCameraClick();
+            currMonth++;
+            if (currMonth > 11) { currMonth = 0; currYear++; }
+            renderCalendar();
+        }
+
+        function selectCalendarDate(day) {
+            playSubtleCameraClick();
+            const monthStr = monthNames[currMonth];
+            const dateVal = `${day} ${monthStr} ${currYear}`;
+
+            selectedDates[activeCalendarMode] = {
+                day: day,
+                month: currMonth,
+                year: currYear
+            };
+
+            if (activeCalendarMode === 'staging') {
+                document.getElementById('selected-stage-date-display').innerText = dateVal;
+                document.getElementById('modal-input-staged').value = `Staging date: ${dateVal}`;
+                const stagedPills = document.getElementById('staged-pill-group').querySelectorAll('.pill-btn');
+                stagedPills.forEach(b => b.classList.remove('active'));
+            } else {
+                document.getElementById('selected-date-display').innerText = dateVal;
+                document.getElementById('modal-input-date').value = dateVal;
+                document.getElementById('modal-asap-btn').classList.add('inactive');
+            }
+            closeCalendarPopup();
+        }
+
+        function setStagedPill(value, btnEl) {
+            playSubtleCameraClick();
+            const group = btnEl.parentElement;
+            group.querySelectorAll('.pill-btn').forEach(b => b.classList.remove('active'));
+            btnEl.classList.add('active');
+            
+            selectedDates.staging = null;
+            document.getElementById('selected-stage-date-display').innerText = 'Pick Staging Date';
+            document.getElementById('modal-input-staged').value = value;
+        }
+
+        function restoreAccessOption() {
+            document.getElementById('modal-vendor-fields').style.display = 'none';
+            document.getElementById('modal-tenant-fields').style.display = 'none';
+            document.getElementById('modal-other-fields').style.display = 'none';
+
+            document.getElementById('modal-group-access-picker').style.display = 'block';
+            document.getElementById('modal-input-access').value = lastSelectedAccessOption;
+            
+            const accessPills = document.getElementById('access-pills-container').querySelectorAll('.pill-btn');
+            accessPills.forEach(b => b.classList.remove('active'));
+
+            if (lastSelectedAccessOption === 'Contact vendor') {
+                document.getElementById('pill-access-vendor').classList.add('active');
+                document.getElementById('modal-vendor-fields').style.display = 'grid';
+            } else if (lastSelectedAccessOption === 'Contact tenant') {
+                document.getElementById('pill-access-tenant').classList.add('active');
+                document.getElementById('modal-tenant-fields').style.display = 'grid';
+            } else if (lastSelectedAccessOption === 'Other') {
+                document.getElementById('pill-access-other').classList.add('active');
+                document.getElementById('modal-other-fields').style.display = 'block';
+            } else {
+                document.getElementById('pill-access-agent').classList.add('active');
+            }
+        }
+
+        function setPill(type, value, btnEl) {
+            playSubtleCameraClick();
+            const group = btnEl.parentElement;
+            group.querySelectorAll('.pill-btn').forEach(b => b.classList.remove('active'));
+            btnEl.classList.add('active');
+
+            if (type === 'occupied') {
+                document.getElementById('modal-input-occupied').value = value;
+                const stagedGroup = document.getElementById('modal-group-staged');
+                const lockboxGroup = document.getElementById('modal-group-lockbox');
+
+                if (value === 'No') {
+                    stagedGroup.style.display = 'block';
+                    lockboxGroup.style.display = 'block';
+                    document.getElementById('pill-access-tenant').style.display = 'none';
+                    
+                    if (lastSelectedAccessOption === 'Contact tenant') {
+                        lastSelectedAccessOption = 'Contact agent';
+                        if (document.getElementById('modal-input-lockbox').value !== 'Yes') {
+                            restoreAccessOption();
+                        }
+                    }
+                } else {
+                    stagedGroup.style.display = 'none';
+                    document.getElementById('modal-input-staged').value = 'Not staged';
+                    selectedDates.staging = null;
+                    const stagedPills = document.getElementById('staged-pill-group').querySelectorAll('.pill-btn');
+                    stagedPills.forEach(b => b.classList.remove('active'));
+                    stagedPills[0].classList.add('active');
+                    document.getElementById('selected-stage-date-display').innerText = 'Pick Staging Date';
+
+                    lockboxGroup.style.display = 'none';
+                    document.getElementById('modal-input-lockbox').value = 'No';
+                    document.getElementById('modal-group-lockbox-fields').style.display = 'none';
+                    document.getElementById('pill-access-tenant').style.display = 'inline-block';
+                    
+                    restoreAccessOption();
+                }
+            } 
+            else if (type === 'lockbox') {
+                document.getElementById('modal-input-lockbox').value = value;
+                if (value === 'Yes') {
+                    document.getElementById('modal-group-lockbox-fields').style.display = 'grid';
+                    document.getElementById('modal-group-access-picker').style.display = 'none';
+                    document.getElementById('modal-vendor-fields').style.display = 'none';
+                    document.getElementById('modal-tenant-fields').style.display = 'none';
+                    document.getElementById('modal-other-fields').style.display = 'none';
+                    document.getElementById('modal-input-access').value = 'Not required – lockbox access';
+                } else {
+                    document.getElementById('modal-group-lockbox-fields').style.display = 'none';
+                    restoreAccessOption();
+                }
+            } 
+            else if (type === 'access') {
+                lastSelectedAccessOption = value;
+                document.getElementById('modal-input-access').value = value;
+                document.getElementById('modal-vendor-fields').style.display = (value === 'Contact vendor') ? 'grid' : 'none';
+                document.getElementById('modal-tenant-fields').style.display = (value === 'Contact tenant') ? 'grid' : 'none';
+                document.getElementById('modal-other-fields').style.display = (value === 'Other') ? 'block' : 'none';
+            }
+            else if (type === 'first_avatar') {
+                document.getElementById('modal-input-first-avatar').value = value;
+                updateEmailSubject();
+                const firstFields = document.getElementById('first-avatar-fields');
+                const consentCheckbox = document.getElementById('modal-avatar-consent');
+
+                if (value === 'Yes') {
+                    firstFields.style.display = 'block';
+                    consentCheckbox.required = true;
+                } else {
+                    firstFields.style.display = 'none';
+                    consentCheckbox.required = false;
+                    consentCheckbox.checked = false;
+                    
+                    document.getElementById('presenter-custom-fields').style.display = 'none';
+                    document.getElementById('modal-presenter-name').required = false;
+                    document.getElementById('modal-presenter-name').value = '';
+                    document.getElementById('modal-presenter-email').required = false;
+                    document.getElementById('modal-presenter-email').value = '';
+                }
+            }
+            else if (type === 'presenter_agent') {
+                document.getElementById('modal-input-presenter-agent').value = value;
+                const customFields = document.getElementById('presenter-custom-fields');
+                const pName = document.getElementById('modal-presenter-name');
+                const pEmail = document.getElementById('modal-presenter-email');
+
+                if (value === 'No') {
+                    customFields.style.display = 'grid';
+                    pName.required = true;
+                    pEmail.required = true;
+                } else {
+                    customFields.style.display = 'none';
+                    pName.required = false;
+                    pName.value = '';
+                    pEmail.required = false;
+                    pEmail.value = '';
+                }
+            }
+        }
+
+        async function handleBookingSubmit(e) {
+            e.preventDefault();
+            const form = e.target;
+            const submitBtn = document.getElementById('modal-submit-btn');
+            const errorMsg = document.getElementById('modal-error-display');
+
+            // Collect elements inside hidden containers and temporarily disable them for validation & FormData
+            const disabledElements = [];
+            for (let i = 0; i < form.elements.length; i++) {
+                const el = form.elements[i];
+                if (el.type !== 'hidden' && el.offsetParent === null) {
+                    if (!el.disabled) {
+                        el.disabled = true;
+                        disabledElements.push(el);
+                    }
+                }
+            }
+
+            try {
+                // 3. VALIDATE ONLY WHAT'S SHOWN
+                if (typeof form.reportValidity === 'function' && !form.reportValidity()) {
+                    return;
+                }
+
+                const isAvatarVisible = document.getElementById('avatar-section').style.display !== 'none';
+                const firstAvatarVal = document.getElementById('modal-input-first-avatar').value;
+
+                if (isAvatarVisible && !firstAvatarVal) {
+                    errorMsg.innerText = "Please answer 'Is this your first avatar video with us?' before sending.";
+                    errorMsg.style.display = 'block';
+                    document.getElementById('avatar-section').scrollIntoView({ behavior: 'smooth' });
+                    return;
+                }
+
+                errorMsg.style.display = 'none';
+                submitBtn.disabled = true;
+                submitBtn.innerText = 'Sending...';
+
+                const rawFormData = new FormData(form);
+                const formData = new FormData();
+
+                // Values for checking active sections
+                const accessVal = document.getElementById('modal-input-access').value;
+                const occupiedVal = document.getElementById('modal-input-occupied').value;
+                const lockboxVal = document.getElementById('modal-input-lockbox').value;
+                const lockboxGroupVisible = document.getElementById('modal-group-lockbox').style.display !== 'none';
+                const presenterIsAgentVal = document.getElementById('modal-input-presenter-agent').value;
+
+                for (let [key, value] of rawFormData.entries()) {
+                    // 1. ONLY SEND FIELDS FOR THE SELECTED OPTIONS
+                    if ((key === 'vendorEmail' || key === 'vendorPhone') && (accessVal !== 'Contact vendor' || (lockboxGroupVisible && lockboxVal === 'Yes'))) continue;
+                    if ((key === 'tenantEmail' || key === 'tenantPhone') && (accessVal !== 'Contact tenant' || (lockboxGroupVisible && lockboxVal === 'Yes') || occupiedVal === 'No')) continue;
+                    if (key === 'accessOtherDetails' && (accessVal !== 'Other' || (lockboxGroupVisible && lockboxVal === 'Yes'))) continue;
+                    if ((key === 'lockboxCode' || key === 'lockboxLocation') && (!lockboxGroupVisible || lockboxVal !== 'Yes')) continue;
+                    if (key === 'staged_status' && occupiedVal !== 'No') continue;
+                    
+                    if ((key === 'presenter_name' || key === 'presenter_email') && (!isAvatarVisible || firstAvatarVal !== 'Yes' || presenterIsAgentVal !== 'No')) continue;
+                    if ((key === 'first_avatar_video' || key === 'presenter_is_agent' || key === 'avatar_consent') && !isAvatarVisible) continue;
+
+                    // 2. DROP EMPTY FIELDS
+                    if (typeof value === 'string' && value.trim() === '') {
+                        continue;
+                    }
+
+                    formData.append(key, value);
+                }
+
+                const response = await fetch(form.action, {
+                    method: 'POST',
+                    body: formData,
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                });
+
+                if (response.ok) {
+                    try { sessionStorage.setItem('cm_lead_pending', '1'); } catch(err) {}
+                    if (isAvatarVisible && firstAvatarVal === 'Yes') {
+                        window.location.href = 'thank-you.html?avatar=new';
+                    } else {
+                        window.location.href = 'thank-you.html';
+                    }
+                } else {
+                    const data = await response.json().catch(() => null);
+                    console.error('Formspree Booking Submission Error:', response.status, data);
+
+                    if (data && data.errors && Array.isArray(data.errors) && data.errors.length > 0) {
+                        const messages = data.errors.map(err => err.message || err.field || 'Invalid input').join(', ');
+                        errorMsg.innerText = "We couldn't send your request: " + messages;
+                    } else {
+                        errorMsg.innerText = "We couldn't send your request (error " + response.status + "). Please try again or email info@clickmarketing.co.nz.";
+                    }
+                    errorMsg.style.display = 'block';
+                    submitBtn.disabled = false;
+                    submitBtn.innerText = 'Send Booking Request';
+                }
+            } catch (err) {
+                console.error('Network/Connection Error on Booking Form:', err);
+                errorMsg.innerText = "We couldn't connect to our booking system. Please check your internet connection and try again, or email info@clickmarketing.co.nz.";
+                errorMsg.style.display = 'block';
+                submitBtn.disabled = false;
+                submitBtn.innerText = 'Send Booking Request';
+            } finally {
+                // Re-enable elements so input state is preserved for user toggling
+                for (let i = 0; i < disabledElements.length; i++) {
+                    disabledElements[i].disabled = false;
+                }
+            }
+        }
+
+        async function handlePartnerSubmit(e) {
+            e.preventDefault();
+            const form = e.target;
+            const submitBtn = document.getElementById('partner-submit-btn');
+            const errorMsg = document.getElementById('partner-error-display');
+
+            // Collect elements inside hidden containers and temporarily disable them for validation & FormData
+            const disabledElements = [];
+            for (let i = 0; i < form.elements.length; i++) {
+                const el = form.elements[i];
+                if (el.type !== 'hidden' && el.offsetParent === null) {
+                    if (!el.disabled) {
+                        el.disabled = true;
+                        disabledElements.push(el);
+                    }
+                }
+            }
+
+            try {
+                // 3. VALIDATE ONLY WHAT'S SHOWN
+                if (typeof form.reportValidity === 'function' && !form.reportValidity()) {
+                    return;
+                }
+
+                errorMsg.style.display = 'none';
+                submitBtn.disabled = true;
+                submitBtn.innerText = 'Sending...';
+
+                const rawFormData = new FormData(form);
+                const formData = new FormData();
+
+                for (let [key, value] of rawFormData.entries()) {
+                    // DROP EMPTY FIELDS
+                    if (typeof value === 'string' && value.trim() === '') {
+                        continue;
+                    }
+
+                    formData.append(key, value);
+                }
+
+                const response = await fetch(form.action, {
+                    method: 'POST',
+                    body: formData,
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                });
+
+                if (response.ok) {
+                    try { sessionStorage.setItem('cm_lead_pending', '1'); } catch(err) {}
+                    window.location.href = 'thank-you.html?type=partner';
+                } else {
+                    const data = await response.json().catch(() => null);
+                    console.error('Formspree Partner Submission Error:', response.status, data);
+
+                    if (data && data.errors && Array.isArray(data.errors) && data.errors.length > 0) {
+                        const messages = data.errors.map(err => err.message || err.field || 'Invalid input').join(', ');
+                        errorMsg.innerText = "We couldn't send your request: " + messages;
+                    } else {
+                        errorMsg.innerText = "We couldn't send your request (error " + response.status + "). Please try again or email info@clickmarketing.co.nz.";
+                    }
+                    errorMsg.style.display = 'block';
+                    submitBtn.disabled = false;
+                    submitBtn.innerText = 'Send Enquiry';
+                }
+            } catch (err) {
+                console.error('Network/Connection Error on Partner Form:', err);
+                errorMsg.innerText = "We couldn't connect to our booking system. Please check your internet connection and try again, or email info@clickmarketing.co.nz.";
+                errorMsg.style.display = 'block';
+                submitBtn.disabled = false;
+                submitBtn.innerText = 'Send Enquiry';
+            } finally {
+                // Re-enable elements so input state is preserved for user toggling
+                for (let i = 0; i < disabledElements.length; i++) {
+                    disabledElements[i].disabled = false;
+                }
+            }
+        }
+
+        /* Duplicate trust badges for a seamless mobile loop */
+        (function () {
+            const grid = document.querySelector('.trust-grid');
+            if (!grid) return;
+            Array.from(grid.children).forEach(item => {
+                const c = item.cloneNode(true);
+                c.classList.add('trust-clone');
+                c.setAttribute('aria-hidden', 'true');
+                grid.appendChild(c);
+            });
+            /* Mobile: auto-glide + swipe/drag in either direction, looping seamlessly */
+            const mq = window.matchMedia('(max-width: 900px)');
+            const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+            let paused = false, resumeTimer = null, last = null, pos = 0;
+            const SPEED = 30; // pixels per second
+            const half = () => grid.scrollWidth / 2;
+            const wrap = () => {
+                const h = half();
+                if (h <= 0) return;
+                if (grid.scrollLeft >= h) grid.scrollLeft -= h;
+                else if (grid.scrollLeft < 2) grid.scrollLeft += h;
+            };
+            const pause = () => { paused = true; clearTimeout(resumeTimer); };
+            const resume = () => { clearTimeout(resumeTimer); setTimeout(wrap, 350); resumeTimer = setTimeout(() => { wrap(); paused = false; pos = grid.scrollLeft; }, 2000); };
+            grid.addEventListener('touchstart', pause, { passive: true });
+            grid.addEventListener('touchend', resume, { passive: true });
+            grid.addEventListener('pointerdown', pause);
+            grid.addEventListener('pointerup', resume);
+            grid.addEventListener('pointercancel', resume);
+            grid.addEventListener('scroll', () => { if (paused) wrap(); }, { passive: true });
+            function step(t) {
+                if (mq.matches && !reduce && !paused) {
+                    if (last !== null) {
+                        pos += SPEED * (t - last) / 1000;
+                        const h = half();
+                        if (h > 0 && pos >= h) pos -= h;
+                        grid.scrollLeft = pos;
+                    }
+                }
+                last = t;
+                requestAnimationFrame(step);
+            }
+            requestAnimationFrame(() => { pos = Math.max(2, Math.round(half() / 7)); grid.scrollLeft = pos; });
+            requestAnimationFrame(step);
+        })();
+
+        /* Mobile Package Carousel Active Pill Observer */
+        (function () {
+            const grid = document.getElementById('packages-container-grid');
+            const pills = document.querySelectorAll('.pkg-pill-nav');
+            if (!grid || !pills.length) return;
+
+            const observer = new IntersectionObserver((entries) => {
+                if (window.innerWidth > 900) return;
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const id = entry.target.id;
+                        pills.forEach(pill => pill.classList.remove('active'));
+                        if (id === 'pkg-premier') pills[0].classList.add('active');
+                        else if (id === 'pkg-showcase') pills[1].classList.add('active');
+                        else if (id === 'pkg-elite') pills[2].classList.add('active');
+                    }
+                });
+            }, { root: grid, threshold: 0.6 });
+
+            document.querySelectorAll('.pkg-card').forEach(card => observer.observe(card));
+        })();
+
+        // Reveal AOS on load for mobile package cards
+        window.addEventListener('load', () => {
+            if (window.innerWidth <= 900) {
+                document.querySelectorAll('#booking .pkg-card').forEach(el => el.classList.add('aos-animate'));
+                centerSignatureOnMobile();
+            }
+        });
+
+        calculateTotal();
+    
+        /* Open the flyer pop-up automatically when arriving with ?flyer=1 (e.g. from the business card) */
+        window.addEventListener('load', function () {
+            try {
+                if (new URLSearchParams(window.location.search).get('flyer') === '1') {
+                    setTimeout(function () { if (typeof downloadAppraisalFlyer === 'function') downloadAppraisalFlyer(); }, 400);
+                }
+            } catch (e) {}
+        });
+</script>
+</body>
+</html>
